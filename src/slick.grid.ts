@@ -3831,7 +3831,7 @@ export class SlickGrid<TData = any, C extends Column<TData> = Column<TData>, O e
 
     const rowDiv = document.createElement('div');
     let rowDivR: HTMLElement | undefined;
-   
+
       rowDiv.className = 'ui-widget-content ' + rowCss;
       rowDiv.style.top = `${(this.getRowTop(row) - frozenRowOffset)}px`;
       divArrayL.push(rowDiv);
@@ -3944,17 +3944,15 @@ export class SlickGrid<TData = any, C extends Column<TData> = Column<TData>, O e
 
       divRow.appendChild(cellDiv);
 
-<<<<<<< HEAD
-=======
     // if there is a corresponding row (if not, this is the Add New row or this data hasn't been loaded yet)
     if (item) {
       let cellResult = (Object.prototype.toString.call(formatterResult) !== '[object Object]' ? formatterResult : (formatterResult as FormatterResultWithHtml).html || (formatterResult as FormatterResultWithText).text);
       if (cellResult instanceof HTMLElement) {
-        cellResult = cellResult.outerHTML;
+        cellResult.appendChild(cellResult);
+      } else {
+        divRow.innerHTML = this.sanitizeHtmlString(cellResult as string);
       }
-      stringArray.push(cellResult as string);
     }
->>>>>>> 3bb5e4e (feat: add grid option `enableHtmlRendering` to use pure HTML not string)
 
 
     this.rowsCache[row].cellRenderQueue.push(cell);
@@ -4616,14 +4614,9 @@ export class SlickGrid<TData = any, C extends Column<TData> = Column<TData>, O e
           }
         }
 
-<<<<<<< HEAD
-        if (this.columnPosRight[Math.min(ii - 1, i + colspan - 1)] > range.leftPx) {
-          this.appendCellHtml(divRow, row, i, colspan, d);
-=======
         const colspanNb = colspan as number; // at this point colspan is for sure a number
         if (this.columnPosRight[Math.min(ii - 1, i + colspanNb - 1)] > range.leftPx) {
-          this.appendCellHtml(stringArray, row, i, colspanNb, d);
->>>>>>> 3bb5e4e (feat: add grid option `enableHtmlRendering` to use pure HTML not string)
+          this.appendCellHtml(divRow, row, i, colspanNb, d);
           cellsAdded++;
         }
 
