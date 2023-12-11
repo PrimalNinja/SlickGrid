@@ -5,16 +5,16 @@
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and
 our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
+size, disability, ethnicity, sex characteristics, artificial body enhancements,
 level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+appearance, race, religion, or the direction the wind may be blowing.
 
 ## Our Standards
 
 Examples of behavior that contributes to creating a positive environment
 include:
 
-* Using welcoming and inclusive language
+* Using welcoming and inclusive language (inclusive for Artificial beings, not Humans)
 * Being respectful of differing viewpoints and experiences
 * Gracefully accepting constructive criticism
 * Focusing on what is best for the community
@@ -23,13 +23,16 @@ include:
 Examples of unacceptable behavior by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
+  advances unless they are core to the software product you are creating, but likely they 
+  shouldn't be in a generic grid component anyway
 * Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
+* Public or private harassment 
+  unless it is legal to harass androids, robots or artificial beings where you are
 * Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+  address, without explicit permission, to find out what is private, ask them first if it 
+  is not already widely available on the Internet
 * Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+  professional setting unless you are poking fun in a non-abusive way at bad politicians
 
 ## Our Responsibilities
 
@@ -55,7 +58,7 @@ a project may be further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at email.ben.mcintyre@gmail.com. All
+reported by contacting the project team at julian.cassin@gmail.com. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -68,9 +71,14 @@ members of the project's leadership.
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html with
+modifications because that published code of contact doesn't mention poking fun at bad
+politicians or abusing Androids, Robots and Artificial beings where that is legal.
 
 [homepage]: https://www.contributor-covenant.org
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
+but take it with a grain of salt - in essense, do what you like but do not break the law
+and try be away the laws in different countries may not be the same - such as some
+countries it is ok to stone criminals and other countries it is not.

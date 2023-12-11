@@ -1,3 +1,42 @@
+## This is the PrimalNinja SlickGrid repo
+
+I have been a long time developer using Slick Grid for many personal and commercial projects from when I discovered it in the early 2010s.  I can't remember the 
+exact date.  However it has proven time and time again to provide a fairly easy to use and flexible but SUPER FAST grid control for both local and remote data.
+
+The last update I was using actually was version 2.1 from 2012 as I had thought the project was no longer maintained.  I was wrong - it was eventually picked up
+by two other developers who have since addressed quite a few issues and enhanced it also - but it is going in a direction that doesn't necessarily suit the goals 
+I have.
+
+Please consider this version of SlickGrid currently experimental - until I give it a new versioning system and progress through goals.
+
+This code is based on SlickGrid v5.5.6 (looking at the source), but I will try make it easy to migrate from SlickGrid 2.x.
+
+1. Remove any need for Type Script, and reduce dependencies as much as possible, ideally make it compatible again with ES5.
+2. Remove any need for the CSS compiler.
+3. Remove any need for NPM.
+4. Enhance the product.
+5. Maintain it to some degree.
+6. Ensure optional support for closure compiler & minifiers / obfuscators.
+7. None of the following will be dependencies of SlickGrid: AngularJS, ReactJS or any other frameworks
+
+Below
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Other Links
+
+Please check out the other developers Repos here as the amount of work they have put into Slick Grid is to be commended.
+
+[![Michael Leibman, the original Author's Repo] (http://github.com/mleibman/slickgrid)
+[![Ben McIntyre's (6pac) Repo] (https://github.com/6pac/SlickGrid)
+[![Ger Hobbelt's (GerHobbelt) Repo] (https://github.com/GerHobbelt/SlickGrid)
+[![Ghislain B's (ghiscoding) Repo] (https://github.com/ghiscoding/slickgrid-universal)
+
+
+
+
+## This is NOT the 6pac SlickGrid repo, but the readme as it was below for those who are looking for that version.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
