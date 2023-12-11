@@ -27,10 +27,10 @@ Below
 
 Please check out the other developers Repos here as the amount of work they have put into Slick Grid is to be commended.
 
-[![Michael Leibman, the original Author's Repo] (http://github.com/mleibman/slickgrid)
-[![Ben McIntyre's (6pac) Repo] (https://github.com/6pac/SlickGrid)
-[![Ger Hobbelt's (GerHobbelt) Repo] (https://github.com/GerHobbelt/SlickGrid)
-[![Ghislain B's (ghiscoding) Repo] (https://github.com/ghiscoding/slickgrid-universal)
+[Michael Leibman, the original Author's Repo] (http://github.com/mleibman/slickgrid)
+[Ben McIntyre's (6pac) Repo] (https://github.com/6pac/SlickGrid)
+[Ger Hobbelt's (GerHobbelt) Repo] (https://github.com/GerHobbelt/SlickGrid)
+[Ghislain B's (ghiscoding) Repo] (https://github.com/ghiscoding/slickgrid-universal)
 
 
 
