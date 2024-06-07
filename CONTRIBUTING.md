@@ -4,10 +4,23 @@ We'd love for you to contribute and to make this project even better than it is 
 
 Before accepting any Pull Request, we would like to remind you to follow the following steps:
 
-1. Ensure all dependencies are within your project (JS, CSS etc)
+1. Install all dependencies
+```sh
+npm install
+```
 
-2. Ensure you have JS Linted your changes, I will provide a JS Lint config file eventually, there should be no errors.
+2. Run a full build
+```sh
+npm run build:prod
+```
 
-3. Do your best to stick with the coding style (I know you won't like it, but if you do, great)
+3. Fix any Linting or TypeScript issues (if any) returned by the build process
 
-4. If you completed step 1 and 2, then the final step would be to proceed with your Pull Request
+4. Run all Cypress E2E tests
+```bash
+npm run dev         # run a local development server on port 8080 in watch mode (or `npm run serve` without watch)
+npm run cypress     # open Cypress UI tool
+```
+
+5. If you completed step 2 and 3, then the final step would be to proceed with your Pull Request
+   - **NOTE** even though the `dist/` folder is included in Git for portability, you could choose (we actually strongly recommend) that you ignore/disregard these files from being included in your Pull Request.

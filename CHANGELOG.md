@@ -2,10 +2,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 2023-12-12
-
-Restructuring of the project files & readme etc in preparation for the first overhaul.
-
 ## [5.5.6](https://github.com/6pac/SlickGrid/compare/5.5.5...5.5.6) (2023-12-02)
 
 ### Bug Fixes
